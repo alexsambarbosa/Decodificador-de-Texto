@@ -213,14 +213,14 @@ aside {
 }
 
 .aside__div__div__btn {
-	width: 80%;
-	height: 67px;
-	margin: auto;
-	border-radius: 15px;
-	font-family: 'Inter', sans-serif;
-	font-size: 16px;
-	cursor: pointer;
-	appearance: none;
+  width: 80%;
+  height: 67px;
+  margin: auto;
+  border-radius: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  appearance: none;
   background-color: #FFFFFF;
   border: 1px solid #0A3871;
   box-sizing: border-box;
@@ -325,4 +325,8 @@ a {
 		margin: auto;
 		height: 70%;
 	}
+
+	.aside__div__p {
+		font-size: 13px;
+	}	
 }
