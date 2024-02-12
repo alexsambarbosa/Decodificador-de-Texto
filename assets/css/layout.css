@@ -16,7 +16,6 @@ body {
 }
 
 header, nav, main, aside, footer {
-	/* background: #a1a1a1; */
 	display: flex;
 	margin: 3px;
 }
