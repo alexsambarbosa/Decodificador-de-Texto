@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/layout.css">
+	<title>Layout</title>
+</head>
+<body onload="ocultarConteudo()" onselectstart="return false">
+	<header>
+		<a href="./layout.html" id="logo">
+			<!-- <img src="./assets/img/logo-alura.svg" alt=""> -->
+		</a>
+	</header>
+	<main>	
+		<div class="main__div">
+			<textarea name="" placeholder="Digite seu texto" class="main__div__textarea" id="left-text" onchange="ativarBotoes()"></textarea>
+			<p>✱ Apenas letras minúsculas e sem acento.</p>
+			<div class="main__div__btn">
+				<button class="main__div__left__btn" role="button" id="btn-1" onclick="criptografarTexto()">Criptografar</button>
+				<button class="main__div__right__btn" role="button" id="btn-2" onclick="descriptografarTexto()">Descriptografar</button>
+			</div>
+		</div>
+	</main>
+
+	<aside>
+		<div class="aside__div">
+			<img src="./assets/img/mobile-encryption-animate.svg" alt="" class="aside__div__img" draggable="false" id="right-img">
+			<h1 class="aside__div__h1" id="right-title">Nenhuma mensagem encontrada</h1>
+			<p class="aside__div__p" id="right-p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+			<textarea name="" disabled class="aside__div__textarea" id="right-text"></textarea>
+			<div class="aside__div__btn" id="right-button">
+				<button class="aside__div__div__btn" onclick="copiarTexto()" id="right-button-btn">Copiar</button>
+			</div>
+		</div>
+	</aside>
+
+	<footer>
+		<p>Desenvolvido by <a href="https://github.com/alexsambarbosa">alexsambarbosa.</a></p>
+	</footer>
+
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
