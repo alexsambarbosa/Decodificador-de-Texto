@@ -35,7 +35,7 @@ function criptografarTexto() {
 		.replace(/u/g, 'ufat');
 
 	right_text.innerText = newText;
-	console.log(`Texto criptogrado: ${newText}`);
+	// console.log(`Texto criptogrado: ${newText}`);
 	document.getElementById('left-text').value = '';
 }
 
@@ -51,7 +51,7 @@ function descriptografarTexto() {
 		.replace(/ufat/g, 'u');
 
 	right_text.innerText = newText;
-	console.log(`Texto descriptogrado: ${newText}`);
+	// console.log(`Texto descriptogrado: ${newText}`);
 	document.getElementById('left-text').value = '';
 }
 
